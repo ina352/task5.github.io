@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%; 
+}
+
+header > nav {
+  flex: 1;
+  text-align: left;
+}
+
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .highlight {
+  font-size: 3.0em;
+  font-weight: bold;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header input[type="text"] {
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header .btn-download {
+  background-color: #0078d4; 
+  color: white; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px;
+  border-radius: 10px; 
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header .btn-download:hover {
+  background-color: #005a9e;
+}
+
+.btn-Firefox {
+  background-color: #000000;  
+  color: white;               
+  border: none;
+  padding: 10px 20px;       
+  font-size: 20px;
+  border-radius: 5px;      
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;    /* h1과 너무 붙지 않게 약간 간격 줌 */
+}
+
+.wide-section h1 {
+  margin-top: 0;          
+}
+
+main {
+  max-width: 600px;
+  margin: 80px auto 0;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  font-size: 1.2em;
+}
+
+.wide-section {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;  
+}
+
+main h1 {
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #444;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+  background-color: #000000;
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+  color: white;
+}
+
+footer p,
+footer button { 
+  margin-right: 10px;       
+  vertical-align: middle;    
+}
+
+footer button {
+  margin: 10px 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.0em;
+}
+
+footer button:hover {
+  text-decoration: underline;
+}
+
+video {
+  display: block;
+  margin: 60px auto;
+  max-width: 800px;
+  border-radius: 12px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  gap: 40px; 
+  margin-top: 0em;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.quote-box {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+  margin: 1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.caption {
+  font-size: 1.0em;
+  color: gray;
+  text-align: center; 
+  margin-top: 0.5em; 
+  font-style: italic;  
+}
+
+.button-link {
+  background-color: #0078d4;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #005a9e;
+}
+
+.body_nav {
+  background-color: #222;  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;    
+  align-items: center;       
+  height: 100vh;         
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+.wrapper {
+  display: flex;
+  gap: 40px;
+  text-align: left;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section a {
+  text-decoration: none;
+  color: white;                /* 흰색 텍스트 */
+  margin: 4px 0;
+}
+
+.section .last_link {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
